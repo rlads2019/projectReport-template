@@ -1,5 +1,5 @@
 
-# Compile to Rmd to HTML & PDF
+# 將報告 (`.Rmd`) 輸出成 HTML 與 PDF
 
 ```r
 rmarkdown::render("index.Rmd")
