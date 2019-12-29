@@ -11,7 +11,7 @@
 2. 此外，欲輸出 PDF 檔，電腦上需有 chrome 瀏覽器
 
 
-### 將報告 (`index.Rmd`) 輸出成 HTML 與 PDF
+## 將書面報告輸出成 HTML 與 PDF
 
 下載此 repo 後，即可在 `index.Rmd` 內撰寫書面報告。
 
@@ -25,4 +25,4 @@ rmarkdown::render("index.Rmd")
 pagedown::chrome_print("index.html")
 ```
 
-你可以透過 RStudio 預覽 `index.html` (按下 knit 之後)，但若直接使用瀏覽器打開 `index.html` 則無法看見檔案。這是因為 `pagedown` 輸出的內容**需透過伺服器變成網站**才可瀏覽。詳細說明，請閱讀 `pagedown` [說明文件](https://pagedown.rbind.io/)。
+你可以透過 RStudio 預覽 `index.html` (按下 knit 之後)，但若直接使用瀏覽器打開 `index.html` 則無法看見檔案。這是因為 `pagedown` 輸出的內容**需透過伺服器變成網站**才可瀏覽。關於模板的詳細說明，請閱讀 `pagedown` [說明文件](https://pagedown.rbind.io/) 或套件 [GitHub 頁面](https://github.com/rstudio/pagedown)。

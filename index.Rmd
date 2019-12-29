@@ -1,10 +1,10 @@
 ---
-title: "標題"
+title: "書面報告模板 (標題)"
 subtitle: "副標題"
 author: | 
   | 第 x 組
   | 組員1, 組員2, 組員3, 組員4
-date: "2019-01-11"
+date: "2019-01-12"
 toc-title: "目錄"
 paperwidth: 8.27in
 paperheight: 11.69in
@@ -31,10 +31,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r}
-# 執行資料分析
-source("R/analysis.R")
-```
 
 如何將此 Rmd 輸出成 PDF?  
 依序執行下方指令：
@@ -67,8 +63,9 @@ pagedown::chrome_print("index.html")
 請在這裡寫下結果。請在這裡寫下結果。請在這裡寫下結果。請在這裡寫下結果。請在這裡寫下結果。請在這裡寫下結果。
 
 ```{r, fig.cap='iris 的散布圖'}
-# 關於變數 pl, 見 R/analysis.R
-pl
+library(ggplot2)
+ggplot(iris) +
+  geom_point(aes(Sepal.Length, Petal.Width, color = Species))
 ```
 
 
