@@ -13,14 +13,13 @@ output:
     toc: true
     front_cover: "styles/cover.jpg"
     back_cover: "styles/cover.jpg"
-    # change to true for a self-contained document, but it'll be a litte slower for Pandoc to render
     self_contained: false
     css: ["styles/pagedown.css", "default-fonts", "default-page", "default"]
-  html_document:
-    number_sections: yes
-    highlight: tango
-    toc: no
-    css: "styles/html_document.css"
+#  html_document:
+#    number_sections: yes
+#    highlight: tango
+#    toc: no
+#    css: "styles/html_document.css"
 #knit: pagedown::chrome_print
 ---
 
@@ -73,9 +72,18 @@ pl
 ```
 
 
-
 討論與貢獻
 =====================
 
 請在這裡寫下討論。請在這裡寫下討論。請在這裡寫下討論。請在這裡寫下討論。
+
+
+
+附錄
+=====================
+
+## 組員分工
+
+請務必寫下各個組員的工作事項。
+
 
